@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000;
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 
 app.use(cors(
-  origin: ['https://hotelify-3e03f.web.app']
+  origin['https://hotelify-3e03f.web.app']
 ));
 app.use(express.json());
 
